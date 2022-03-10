@@ -1,13 +1,8 @@
 # global-ray-intellij
 
 ![Build](https://github.com/olivernybroe/global-ray-intellij/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-
-## Template ToDo list
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
+[![Version](https://img.shields.io/jetbrains/plugin/v/18749.svg)](https://plugins.jetbrains.com/plugin/18749)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/18749.svg)](https://plugins.jetbrains.com/plugin/18749)
 
 <!-- Plugin description -->
 Adds autocompletion for Spatie Ray when installed globally.
