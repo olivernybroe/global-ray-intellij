@@ -1,18 +1,13 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.olivernybroe.globalrayintellij</id>
-    <name>global-ray-intellij</name>
+    <name>Global Ray</name>
     <vendor>olivernybroe</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.jetbrains.php</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.olivernybroe.globalrayintellij.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.olivernybroe.globalrayintellij.services.MyProjectService"/>
+    <extensions defaultExtensionNs="com.jetbrains.php">
+        <libraryRoot id="global-ray" path="/library/ray" runtime="false"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.olivernybroe.globalrayintellij.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
