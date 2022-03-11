@@ -3,6 +3,8 @@
 # global-ray-intellij Changelog
 
 ## [Unreleased]
+
+## [0.0.3]
 ### Changed
 - Improved readme text
 
