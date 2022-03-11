@@ -24,6 +24,7 @@ namespace {
 
 namespace Spatie\Ray {
     class Ray {
+        public function trace(?\Closure $startingFromFrame = null): self {}
         public function backtrace(?\Closure $startingFromFrame = null): self {}
         public function caller(): self {}
         public function carbon(?\Carbon\CarbonInterface $carbon): self {}
@@ -42,6 +43,28 @@ namespace Spatie\Ray {
         public function enabled(): bool {}
         public function exception(\Throwable $exception, array $meta = []) {}
 
+        public function measure($stopwatchName = 'default'): self {}
+        public function notify(string $text): self {}
+
+        public function toJson(...$values): self {}
+        public function json(string ...$jsons): self {}
+        public function file(string $filename): self {}
+        public function image(string $location): self {}
+        public function table(array $values, $label = 'Table'): self {}
+        public function pause(): self {}
+        public function separator(): self {}
+        public function once(...$arguments): self {}
+        public function pass($argument) {}
+        
+        public function html(string $html = ''): self {}
+        public function xml(string $xml): self {}
+        public function text(string $text): self {}
+
+        public function showApp(): self {}
+        public function hideApp(): self {}
+        
+        public function if($boolOrCallable, ?callable $callback = null): self {}
+
         /**
          * @return never
          */
@@ -55,5 +78,9 @@ namespace Spatie\Ray {
         public function purple(): self {}
         public function blue(): self {}
         public function gray(): self {}
+
+        // Let's have some fun
+        public function ban(): self {}
+        public function charles(): self {}
     }
 }
