@@ -4,11 +4,15 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/18749.svg)](https://plugins.jetbrains.com/plugin/18749)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/18749.svg)](https://plugins.jetbrains.com/plugin/18749)
 
+<!-- Plugin description -->
+
 [Ray](https://myray.app) is a beautiful desktop application that helps you debug faster.
 
 One of the ways to send debugging information to Ray, is to use the [Global Ray](https://github.com/spatie/global-ray) tool. It allows you to use `ray()` in any PHP file on your system.
 
 This PhpStorm provides autocompletion for the `ray()` function in PhpStorm.
+
+<!-- Plugin description end -->
 
 ## Installation
 
