@@ -3,8 +3,11 @@
 # global-ray-intellij Changelog
 
 ## [Unreleased]
+### Changed
+- Improved readme text
 
 ## [0.0.2]
+### Added
 - Added missing stub methods for Ray
 
 ## [0.0.1]
